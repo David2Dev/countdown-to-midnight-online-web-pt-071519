@@ -24,7 +24,7 @@ countdown_output = 10
    puts "#{countdown_output} SECOND(S)!"
    countdown_output -= 1
    break if countdown_output == 0
-   countdown_output sleep 5.seconds
+   sleep 5.seconds
   end
  return "HAPPY NEW YEAR!"
 end
