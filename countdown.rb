@@ -23,8 +23,9 @@ countdown_output = 10
   while countdown_output <= 10
    puts "#{countdown_output} SECOND(S)!"
    countdown_output -= 1
+   sleep 5
    break if countdown_output == 0
-   sleep 5.seconds
+   
   end
  return "HAPPY NEW YEAR!"
 end
